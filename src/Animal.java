@@ -5,9 +5,9 @@ abstract class Animal {
         this.name = name;
         this.age = age;
     }
-    public abstract void makeSound ();
+    abstract void makeSound ();
 
-    public abstract void move();
+    abstract void move();
 
-    public abstract void displayInfo();
+    abstract void displayInfo();
 }
